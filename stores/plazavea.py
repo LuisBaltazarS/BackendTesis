@@ -132,7 +132,7 @@ def test_eight_components(url):
 
                                 "marca": marca,
                                 "cantidad": cantidad,
-                                "precio_fisica": precio_fisica,
+                                "precio": precio_fisica,
                                 "precio_virtual": precio_virtual,
                                 "image": image
 
@@ -212,7 +212,7 @@ def test_eight_components(url):
 
                                 "marca": marca,
                                 "cantidad": cantidad.text,
-                                "precio_fisica": precio_fisica,
+                                "precio": precio_fisica,
                                 "precio_virtual": precio_virtual,
                                 "image": image
 
@@ -240,7 +240,7 @@ def test_eight_components(url):
 
                                 "marca": marca,
                                 "cantidad": cantidad,
-                                "precio_fisica": precio_fisica,
+                                "precio": precio_fisica,
                                 "precio_virtual": precio_virtual,
                                 "image": image
 
