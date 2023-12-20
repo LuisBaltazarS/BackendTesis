@@ -32,8 +32,6 @@ def test_eight_components(url):
 
         )
 
-
-
         number_pages = container_pages.find_elements(By.TAG_NAME, 'span')
 
         try: 
@@ -106,7 +104,7 @@ def test_eight_components(url):
 
                                 "marca": marca,
                                 "cantidad": cantidad.text,
-                                "precio_fisica": precio_fisica,
+                                "precio": precio_fisica,
                                 "precio_virtual": precio_virtual,
                                 "image": image
 
